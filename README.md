@@ -2,7 +2,7 @@
 
 ![build-test](https://github.com/mskian/gatsby-tamil-kavithai/workflows/build-test/badge.svg)  
 
-> படித்தால் பிடித்தது 📕 💚  
+> படித்ததில் பிடித்தது 📕 💚  
 
 Kavithai Forum - Latest Collectios of Tamil kavithai, Tamil Quotes and Kadhal Kavithai for Social Status and Stories.  
 
