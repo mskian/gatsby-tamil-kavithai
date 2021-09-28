@@ -1,0 +1,5 @@
+# Netlify redirects file, edit with your domain
+# https://www.netlify.com/docs/redirects/
+
+https://kavithai.netlify.app/* https://kavithaiforum.com/:splat 301!
+http://kavithai.netlify.app/* https://kavithaiforum.com/:splat 301!

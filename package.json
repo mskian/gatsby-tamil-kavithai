@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-tamil-kavithai",
+  "private": true,
+  "description": "Kavithai Forum - Latest Collectios of Tamil kavithai, Tamil Quotes and Kadhal Kavithai for Social Status and Stories.",
+  "version": "0.1.0",
+  "author": "Santhosh Veer",
+  "license": "MIT",
+  "keywords": [
+    "markdown",
+    "mdx",
+    "blog",
+    "gatsbyjs",
+    "reactjs"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "newpost": "node scripts/post.js",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "bulma": "^0.9.3",
+    "gatsby": "^3.14.0",
+    "gatsby-plugin-feed-mdx": "^1.1.0",
+    "gatsby-plugin-html-attributes": "^1.0.5",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-manifest": "^3.14.0",
+    "gatsby-plugin-mdx": "^2.14.0",
+    "gatsby-plugin-offline": "^4.14.0",
+    "gatsby-plugin-preconnect": "^1.2.0",
+    "gatsby-plugin-react-helmet-async": "^1.2.0",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-plugin-sitemap": "^4.10.0",
+    "gatsby-remark-images": "^5.11.0",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-sharp": "^3.14.0",
+    "prompt-sync": "^4.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.1.2",
+    "react-use-clipboard": "1.0.7",
+    "slugify": "^1.6.0"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskian/gatsby-tamil-kavithai"
+  },
+  "bugs": {
+    "url": "https://github.com/mskian/gatsby-tamil-kavithai/issues"
+  }
+}
