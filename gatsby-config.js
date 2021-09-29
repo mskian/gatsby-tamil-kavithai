@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Tamil Kavithaigal - படித்தால் பிடித்தது - Kavithai Forum`,
+    title: `Tamil Kavithaigal - படித்ததில் பிடித்தது - Kavithai Forum`,
     description: `Kavithai Forum - Latest Collectios of Tamil kavithai, Tamil Quotes and Kadhal Kavithai for Social Status and Stories.`,
     siteUrl: "https://kavithaiforum.com",
   },

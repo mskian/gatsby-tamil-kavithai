@@ -15,18 +15,18 @@ export default class BlogList extends React.Component {
       <section className="section">
         <HelmetProvider>
           <Helmet defer={false}>
-            <title>Blog - Tamil Kavithaigal - படித்தால் பிடித்தது</title>
+            <title>Blog - Kavithai Forum - படித்ததில் பிடித்தது</title>
             <meta
               name="description"
               content="Kavithai Forum - Latest Collectios of Tamil kavithai, Tamil Quotes and Kadhal Kavithai for Social Status and Stories."
             />
             <meta
               property="og:title"
-              content="Blog - Tamil Kavithaigal - Kavithai Forum"
+              content="Blog - Kavithai Forum - படித்ததில் பிடித்தது"
             />
             <meta
               property="og:site_name"
-              content="Blog - Tamil Kavithaigal - Kavithai Forum"
+              content="Blog - Kavithai Forum - படித்ததில் பிடித்தது"
             />
             <meta property="og:type" content="website" />
             <meta
@@ -44,7 +44,7 @@ export default class BlogList extends React.Component {
             <meta name="twitter:card" content="summary_large_image" />
             <meta
               name="twitter:title"
-              content="Blog - Tamil Kavithaigal - Kavithai Forum"
+              content="Blog - Kavithai Forum - படித்ததில் பிடித்தது"
             />
             <meta
               name="twitter:description"
@@ -70,7 +70,7 @@ export default class BlogList extends React.Component {
               gtag('js', new Date());
           
               gtag('config', 'UA-67506568-28', {
-                'page_title' : 'Blog - Tamil Kavithaigal',
+                'page_title' : 'Blog - Kavithai Forum - படித்ததில் பிடித்தது',
                 'page_location': '${pathname}'
               });
              }

@@ -144,7 +144,7 @@ const BlogPost = ({ data }) => {
               className="button is-rounded is-danger read-random"
               onClick={setCopied}
             >
-             Kavithai {isCopied ? "Copied 😀" : "Copied? 😟"}
+              Kavithai {isCopied ? "Copied 😀" : "Copied? 😟"}
             </button>
             <br />
             <p className="post-tags">
