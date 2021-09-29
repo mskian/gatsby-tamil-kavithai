@@ -42,6 +42,35 @@ const CategoryPage = ({ data, pageContext }) => {
           <link rel="canonical" href={pathname} />
           <meta name="twitter:url" content={pathname} />
           <meta property="og:url" content={pathname} />
+          <script type="application/ld+json">{`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "publisher": {
+                "@type": "Organization",
+                "name": "${pageContext.category}",
+                "url": "${pathname}",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://kavithaiforum.com/logo.png",
+                  "width": 60,
+                  "height": 60
+                }
+              },
+              "url": "${pathname}",
+              "image": {
+                "@type": "ImageObject",
+                "url": "https://kavithaiforum.com/kavithai-cover.png",
+                "width": 1280,
+                "height": 720
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "${pathname}"
+              },
+              "description": "Kavithai Forum - Latest Collectios of Tamil kavithai, Tamil Quotes and Kadhal Kavithai for Social Status and Stories."
+            }
+            `}</script>
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-67506568-28"

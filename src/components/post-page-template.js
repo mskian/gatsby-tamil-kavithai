@@ -110,6 +110,26 @@ const BlogPost = ({ data }) => {
               "description": "${frontmatter.description}"
             }
           `}</script>
+          <script type="application/ld+json">{`
+            {
+             "@context": "https://schema.org",
+             "@type": "BreadcrumbList",
+             "itemListElement": [{
+             "@type": "ListItem",
+             "position": 1,
+             "name": "Home",
+             "item": "https://kavithaiforum.com"
+            },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "${frontmatter.categories}"
+           },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": "${frontmatter.title}"
+           }]
+          }   
+        `}</script>
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-67506568-28"
