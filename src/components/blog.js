@@ -112,7 +112,7 @@ export default class BlogList extends React.Component {
             <div className="column is-half">
               <br />
               <h1 className="title is-4 has-text-warning has-text-centered">
-                படித்தால் பிடித்தது...!{" "}
+                படித்ததில் பிடித்தது...!{" "}
                 <span role="img" aria-label="Growing Heart">
                   📕
                 </span>
