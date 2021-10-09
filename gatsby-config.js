@@ -43,8 +43,8 @@ module.exports = {
         short_name: `Kavithai Forum`,
         description: `Kavithai Forum - Latest Collectios of Tamil kavithai, Tamil Quotes and Kadhal Kavithai for Social Status and Stories.`,
         start_url: `/`,
-        background_color: `#d35400`,
-        theme_color: `#d35400`,
+        background_color: `#2c3e50`,
+        theme_color: `#2c3e50`,
         display: `standalone`,
         icon: `static/favicon.png`,
         icon_options: {
@@ -67,6 +67,7 @@ module.exports = {
           `https://fonts.gstatic.com`,
           `https://www.googletagmanager.com`,
           `https://analytics.google.com`,
+          `https://isso.kavithaiforum.com`,
         ],
       },
     },

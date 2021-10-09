@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { Helmet, HelmetProvider } from "react-helmet-async"
 
 const CategoryPage = ({ data, pageContext }) => {
@@ -94,7 +94,7 @@ const CategoryPage = ({ data, pageContext }) => {
       <div className="container content">
         <div className="columns is-centered">
           <div className="column is-half">
-            <h2 className="title is-4 has-text-warning has-text-centered">
+            <h2 className="title is-4 has-text-danger has-text-centered">
               {pageContext.category}
             </h2>
             <p className="has-text-centered">
@@ -105,7 +105,9 @@ const CategoryPage = ({ data, pageContext }) => {
             <ul>
               {data.allMdx.nodes.map(post => (
                 <li key={post.id} className="title is-6">
-                  <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+                  <a href={post.fields.slug} title={post.frontmatter.title}>
+                    {post.frontmatter.title}
+                  </a>
                 </li>
               ))}
             </ul>

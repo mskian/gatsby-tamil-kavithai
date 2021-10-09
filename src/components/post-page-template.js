@@ -148,6 +148,14 @@ const BlogPost = ({ data }) => {
              }
            `}
           </script>
+          <script
+            data-isso="https://isso.kavithaiforum.com/"
+            data-isso-css="true"
+            data-isso-require-author="false"
+            data-isso-vote="true"
+            data-isso-feed="false"
+            src="https://isso.kavithaiforum.com/js/embed.min.js"
+          ></script>
         </Helmet>
       </HelmetProvider>
       <div className="container">
@@ -179,21 +187,23 @@ const BlogPost = ({ data }) => {
               </Link>
             </p>
             <br />
+            <div id="isso-thread" data-title={frontmatter.title}></div>
+            <br />
             <Link to="/kavithai">
               <span role="img" aria-label="Growing Heart">
                 🏠
               </span>{" "}
-              Back to Blog
+              Back to Home
             </Link>
             <br />
             <hr />
             <p
-              style={{ color: "#9dad7f" }}
+              style={{ color: "#2c3e50" }}
               className="has-text-weight-bold has-text-centered"
             >
               தமிழ் எஸ் எம் எஸ்{" "}
               <span role="img" aria-label="Yello Heart">
-                💛
+                💚
               </span>
               <br />
               Note: we are Collecting the Kavithai Around internet and Social

@@ -104,7 +104,7 @@ const Blogindex = ({ data }) => {
         <div className="columns is-centered">
           <div className="column is-half">
             <br />
-            <h1 className="title is-size-4 has-text-warning has-text-centered">
+            <h1 className="title is-size-4 has-text-danger has-text-centered">
               படித்ததில் பிடித்தது 📕{" "}
               <span role="img" aria-label="Growing Heart">
                 💚
@@ -144,12 +144,12 @@ const Blogindex = ({ data }) => {
             <br />
             <hr />
             <p
-              style={{ color: "#9dad7f" }}
+              style={{ color: "#2c3e50" }}
               className="has-text-weight-bold has-text-centered"
             >
               தமிழ் எஸ் எம் எஸ்{" "}
               <span role="img" aria-label="Yello Heart">
-                💛
+                💚
               </span>
               <br />
               Note: we are Collecting the Kavithai Around internet and Social

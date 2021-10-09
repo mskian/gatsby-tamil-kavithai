@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
 body {
   font-size: 18px;
-  background-color: #1d3557;
+  background-color: #e1e2e4;
   height: 100vh;
   color: rgba(0, 0, 0, 0.6);
   font-family: 'Baloo Thambi 2', cursive;
@@ -16,11 +16,11 @@ body {
     height: 8px;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: rgba(175, 180, 247, 0.302);
+    background-color: rgba(245, 123, 23, 0.302);
     border-radius: 8px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(97, 245, 78, 0.5);
+    background-color: rgba(44, 72, 235, 0.5);
 }
 h1{font-weight:600;font-size:23px;}
 h2{font-weight:600;font-size:21px;}
@@ -28,7 +28,7 @@ h3{font-weight:600;font-size:20px;}
 h4{font-weight:600;font-size:18px;}
 h5{font-weight:600;font-size:18px;}
 h1, h2, h3, h4, h5, h6 {
-    color: #e9e9dc;
+    color: #3d51a8;
     word-wrap: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -46,27 +46,30 @@ textarea,
 	margin: 0 auto;
 }
 .title {
-  color:#d9ee1c;
+  color:#35362e;
   font-weight: 600;
 }
 a {
-  color: #b8f314;
+  color: #3d4135;
 }
 a:hover {
-  color: rgb(105, 253, 36);
+  color: rgb(48, 75, 35);
 }
 .content a {
-    color: #ffffff;
+    color: #2b2424;
+}
+hr {
+  border: 1px solid #2b0c0c;
 }
 .notification {
   background-color: #6930c3;
   color: rgb(29, 7, 7);
 }
 ul li a:hover, ul li a:focus {
-  color:rgb(67, 241, 52);
+  color:rgb(147, 141, 238);
 }
 li:hover {
-  color: rgb(105, 253, 36);
+  color: rgb(18, 19, 19);
 }
 .read-more {
 	display: flex;
@@ -154,7 +157,7 @@ p {
   word-wrap: break-word;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 15px;
-  color: #f9fdc5;
+  color: #2c2c25;
   -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased !important;
  -moz-font-smoothing: antialiased !important;
@@ -250,7 +253,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
   background: #e5eff5;
   border-radius: 28px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 }
 .subscribe-form-title {
   margin: 0 0 3px 0;
@@ -280,88 +283,6 @@ li {
   padding-left: 1rem;
   text-indent: -0.7rem;
 }
-.button-link {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: 5px 0;
-  padding: 15px 32px;
-  color: #fff !important;
-  font-size: 16px;
-  line-height: 1.0;
-  font-weight: 700;
-  text-align: center;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.1);
-  background: linear-gradient(#4fb7f0,#29a0e0 60%,#29a0e0 90%,#36a6e2);
-  border-radius: 32px;
-  box-shadow: inset 0 0 0 1px rgba(0,0,0,.14);
-  line-height: 26px;
-  letter-spacing: .03em;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-font-smoothing: antialiased !important;
-  text-rendering: optimizelegibility !important;
-  font-family: 'Baloo Thambi 2', cursive;
-}
-.button-link:hover {
-background: linear-gradient(#36a6e2,#29a0e0 60%,#29a0e0 90%,#4fb7f0);
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-.button-link:active, .button-link:focus { background: #209cdf; color: #fff !important; }
-@media (max-width: 500px) {
-  .button-link {
-      margin: 10px 0 0 0;
-      width: 100%;
-  }
-}
-.subscribe-button {
-  display: block;
-  padding: 4px 10px;
-  border: #fff 1px solid;
-  color: #fff;
-  font-size: 1.2rem;
-  line-height: 1em;
-  border-radius: 10px;
-  opacity: 0.8;
-}
-.subscribe-button:hover {
-  text-decoration: none;
-  opacity: 1;
-}
-.subscribe-form button {
-  opacity: 0.9;
-}
-.subscribe-form {
-  margin: 1.5em 0;
-  padding: 6.5vw 7vw 8vw;
-  border: #c5d2d9 1px solid;
-  text-align: center;
-  background: #e5eff5;
-  border-radius: 28px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-.subscribe-form-title {
-  margin: 0 0 3px 0;
-  padding: 0;
-  color: #15171A;
-  font-size: 3.5rem;
-  line-height: 1;
-  font-weight: 600;
-}
-.subscribe-form-description {
-  margin-bottom: 0.2em 0 1em;
-  color: #738a94;
-  font-size: 2.1rem;
-  line-height: 1.55em;
-}
-@media (max-width: 650px) {
-  .subscribe-form-title {
-      font-size: 2.4rem;
-  }
-  .subscribe-form-description {
-      font-size: 1.6rem;
-  }
-}
 .post-tags {
   font-size: 14px;
   text-transform: uppercase;
@@ -373,11 +294,22 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .post-date {
   font-size: 14px;
-  color: #aabdf0;
+  color: #4516f0de;
   text-transform: uppercase;
   font-weight: bold;
   -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased !important;
  -moz-font-smoothing: antialiased !important;
  text-rendering: optimizelegibility !important;
+}
+.isso-postbox .textarea {
+  width : 90%;
+  height: 150px;
+  display: block;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+  overflow: auto;
+  background-color: white;
 }

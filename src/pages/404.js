@@ -21,7 +21,7 @@ class ErroPage extends Component {
             <div className="column is-half">
               <br />
               <h1
-                style={{ color: "#bee5d3" }}
+                style={{ color: "#d63031" }}
                 className="title has-text-centered"
               >
                 Oops Error page or Something went Wrong
