@@ -75,10 +75,10 @@ li:hover {
 	display: flex;
 	flex-grow: 0.3;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 14px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 	border-radius: 30px;
-	padding: 35px;
+	padding: 10px;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
 	-moz-font-smoothing: antialiased !important;
@@ -157,7 +157,7 @@ p {
   word-wrap: break-word;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 15px;
-  color: #2c2c25;
+  color: #22221d;
   -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased !important;
  -moz-font-smoothing: antialiased !important;
@@ -251,9 +251,9 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding: 6.5vw 7vw 8vw;
   border: #c5d2d9 1px solid;
   text-align: center;
-  background: #e5eff5;
+  background: #ffd560;
   border-radius: 28px;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px rgba(247, 211, 115, 0.3);
 }
 .subscribe-form-title {
   margin: 0 0 3px 0;

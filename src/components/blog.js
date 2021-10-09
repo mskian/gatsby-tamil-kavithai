@@ -164,8 +164,8 @@ export default class BlogList extends React.Component {
               <br />
               <hr />
               <p
-                style={{ color: "#2c3e50" }}
-                className="has-text-weight-bold has-text-centered"
+                style={{ color: "#22221d" }}
+                className="has-text-weight-medium has-text-centered"
               >
                 தமிழ் எஸ் எம் எஸ்{" "}
                 <span role="img" aria-label="Yello Heart">

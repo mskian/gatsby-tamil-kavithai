@@ -133,19 +133,32 @@ const Blogindex = ({ data }) => {
               <br />
               <Link
                 to="/kavithai"
-                className="button-link"
+                className="button is-rounded is-link read-more"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
               >
-                <span>▶ Open Kavithai</span>
+                <span>📩 Open Kavithai</span>
               </Link>
+              <br />
+              <hr />
+              <p className="has-text-dark has-text-weight-medium has-text-left">
+                Tamil Kavithai Forum - 📝 Post your Tamil Kavithai and Tamil
+                Kavithai Quotes 💚
+              </p>
+              <a
+                href="/postkavithai"
+                title="Post Kavithai"
+                className="button is-rounded is-danger read-more"
+              >
+                <span>💌 Post your Kavithai</span>
+              </a>
             </div>
             <br />
             <br />
             <hr />
             <p
-              style={{ color: "#2c3e50" }}
-              className="has-text-weight-bold has-text-centered"
+              style={{ color: "#22221d" }}
+              className="has-text-weight-medium has-text-centered"
             >
               தமிழ் எஸ் எம் எஸ்{" "}
               <span role="img" aria-label="Yello Heart">
