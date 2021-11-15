@@ -28,3 +28,5 @@ Disallow: /
 
 User-agent: HTTrack
 Disallow: /
+
+Sitemap: https://kavithaiforum.com/sitemap-index.xml
