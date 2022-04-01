@@ -40,8 +40,8 @@
     "gatsby-remark-images": "^6.11.1",
     "gatsby-source-filesystem": "^4.11.1",
     "gatsby-transformer-sharp": "^4.11.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-helmet-async": "^1.2.3",
     "react-use-clipboard": "1.0.7",
     "slugify": "^1.6.5"
