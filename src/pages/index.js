@@ -132,7 +132,7 @@ const Blogindex = ({ data }) => {
               </p>
               <br />
               <Link
-                to="/kavithai"
+                to="/kavithai/"
                 className="button is-rounded is-link read-more"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
@@ -146,7 +146,7 @@ const Blogindex = ({ data }) => {
                 Kavithai Quotes 💚
               </p>
               <a
-                href="/postkavithai"
+                href="/postkavithai/"
                 title="Post Kavithai"
                 className="button is-rounded is-danger read-more"
               >

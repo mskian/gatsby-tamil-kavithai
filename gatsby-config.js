@@ -10,6 +10,7 @@ module.exports = {
     description: `Kavithai Forum - Latest Collectios of Tamil kavithai, Tamil Quotes and Kadhal Kavithai for Social Status and Stories.`,
     siteUrl: "https://kavithaiforum.com",
   },
+  trailingSlash: 'always',
   flags: {
     DEV_SSR: false,
   },
